@@ -30,7 +30,7 @@ def stop_at(color):
         if color_sensor_E.get_color() == color: # If the color sensor on port E detect the desired color
             motor_A.stop() # stop the motor an port A and
             motor_A_flag = 1 # set the flag for motor A to ON.
-        if color_sensor_F.get_color() == colour: # If the color sensor on port F detect the desired color
+        if color_sensor_F.get_color() == color: # If the color sensor on port F detect the desired color
             motor_B.stop() # stop the motor an port B and
             motor_B_flag = 1 # set the flag for motor B to ON.
 
