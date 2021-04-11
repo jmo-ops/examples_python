@@ -18,7 +18,7 @@ motor_B.set_stop_action('brake') # Activate the brakes when the motor stops.
 motor_A_flag = 0 # Create a flag for motor A and set it to OFF.
 motor_B_flag = 0 # Create a flag for motor B and set it to OFF.
 
-def stop_at(colour):
+def stop_at(color):
     motor_A_flag = 0 # Reset the flag for motor A to OFF.
     motor_B_flag = 0 # Reset the flag for motor B to OFF.
 
